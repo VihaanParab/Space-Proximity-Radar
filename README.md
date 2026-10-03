@@ -21,6 +21,7 @@
 
 ### 📡 System Overview
 An Arduino-powered aerospace radar and proximity detection system engineered to measure spatial distance and alert operators via real-time telemetry indicators.
+> **Note for Visitors:** Click the orange **"LAUNCH TINKERCAD SIMULATION"** badge above to test the interactive circuit live in your browser.
 
 ### ⚙️ Hardware Components
 * **Microcontroller:** Arduino Uno (C++ Firmware)
