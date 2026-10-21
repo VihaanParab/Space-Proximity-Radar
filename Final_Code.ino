@@ -71,7 +71,7 @@ void loop(){
   lcd.print(" cm ");
   lcd.setCursor(0,1);
 
-  if(distance<safetyThreshold){
+  if(distance > 0 && distance < safetyThreshold){
     if(distance<safetyThreshold/3){
       tone(BUZZERpin,1000);
       digitalWrite(LEDpin,HIGH);
@@ -125,7 +125,7 @@ void loop(){
   lcd.print(" cm ");
   lcd.setCursor(0,1);
 
-  if(distance<safetyThreshold){
+  if(distance > 0 && distance < safetyThreshold){
     if(distance<safetyThreshold/3){
       tone(BUZZERpin,1000);
       digitalWrite(LEDpin,HIGH);
